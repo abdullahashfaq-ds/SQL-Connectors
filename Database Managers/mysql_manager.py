@@ -60,7 +60,8 @@ class MySQLDatabaseManager:
                    tableAttribute: str,
                    updatedData: int | str,
                    id_column: str,
-                   id_value: str):
+                   id_value: str
+                   ):
         """
         Updates data in a specified table and attribute based on a given ID.
         """
